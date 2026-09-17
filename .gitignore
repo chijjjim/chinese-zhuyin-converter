@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives / backups
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Secrets
+*.pem
+*.key
+*.pfx
+credentials.json
